@@ -4,7 +4,7 @@
 }
 
 .fondo {
-    background-image: url(".\img\fondo-espacio1.jpg");
+    background-image: url(/img/fondo-espacio1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
