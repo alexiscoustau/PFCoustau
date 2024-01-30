@@ -26,5 +26,89 @@
   font-size: 18px;
   transition: 0.5s;
 }
+.fondo .sombra-letras, .fondo .largo .texto-trabajo, .fondo .largo .texto-demi, .fondo .largo .texto-inicio {
+  text-shadow: 0px 4px 3px rgb(0, 0, 0);
+}
+.fondo .largo {
+  height: 80vh;
+}
+.fondo .largo .titulo {
+  color: #fffb07;
+}
+.fondo .largo .titulo2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.fondo .largo .titulo3 {
+  color: white;
+  font-family: "Lemon", serif;
+  font-family: "Lilita One", sans-serif;
+  font-family: "Salsa", cursive;
+  background-color: rgba(128, 128, 128, 0.562);
+}
+.fondo .largo .texto-inicio {
+  margin-top: 180px;
+}
+.fondo .largo .texto-demi {
+  margin-top: 80px;
+}
+.fondo .largo .texto-trabajo {
+  margin-top: 30px;
+}
+.fondo .largo .imagen-astronauta {
+  width: 20px;
+  height: 20px;
+}
+.fondo .largo .tamaño-astronauta {
+  width: 300px;
+  height: 300px;
+  margin-top: 140px;
+}
+.fondo .largo .tamaño-algo-demi {
+  width: 250px;
+  height: 280px;
+  margin-top: 120px;
+}
+.fondo .largo .tamaño-logos {
+  width: 90px;
+  height: 90px;
+}
+.fondo .largo .color-letra-contacto {
+  color: gold;
+}
+.fondo .largo .tamaño-tarjeta {
+  height: 150px;
+  margin-top: 20px;
+}
+.fondo .largo .tamaño-tarjeta .contact-info__wrapper {
+  overflow: hidden;
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+@media (min-width: 1024px) {
+  .fondo .largo .tamaño-tarjeta .contact-info__wrapper {
+    border-radius: 0 0.625rem 0.625rem 0;
+    padding: 5rem !important;
+  }
+}
+.fondo .largo .tamaño-tarjeta .list-style--none {
+  list-style: none;
+}
+.fondo .largo .tamaño-tarjeta .contact__wrapper {
+  background-color: #fff;
+  border-radius: 0 0 0.625rem 0.625rem;
+}
+@media (min-width: 1024px) {
+  .fondo .largo .tamaño-tarjeta .contact__wrapper {
+    border-radius: 0.625rem 0 0.625rem 0.625rem;
+  }
+}
+@media (min-width: 1024px) {
+  .fondo .largo .tamaño-tarjeta .contact-form__wrapper {
+    padding: 5rem !important;
+  }
+}
+.fondo .largo .tamaño-tarjeta .shadow-lg, .fondo .largo .tamaño-tarjeta .shadow-lg--on-hover:hover {
+  box-shadow: 0 1rem 3rem rgba(132, 138, 163, 0.212) !important;
+}
 
 /*# sourceMappingURL=style.css.map */
