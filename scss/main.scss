@@ -2,21 +2,22 @@
     margin: 0;
     padding: 0;
 }
-@mixin medidas ($ancho , $largo){
-    width: $ancho;
-    height: $largo;
-}
-
 
 
 .fondo {
+    height: 100vh ;
     background-image: url(../img/fondo-espacio1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixe;
+    background-attachment: fixed;
     background-position:center;
     
-    height: 105vh;
+   
+} 
+ @mixin medidas ($ancho , $largo){
+    width: $ancho;
+    height: $largo;}
+
     .nav-sombra {
         box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.541);
         .navegador {
@@ -38,7 +39,7 @@
         text-shadow: 0px 4px 3px rgba(0,0,0,1);
     }
     .largo{
-        height: 80vh;
+        /*height: 80vh;*/
         .titulo{
         
             color: #fffb07;
@@ -55,7 +56,7 @@
         background-color: rgba(128, 128, 128, 0.562);}
         .texto-inicio {
             @extend .sombra-letras;
-            margin-top: 180px;
+            margin-top: 140px;
             
         }
         .texto-demi {
@@ -75,7 +76,7 @@
         .tamaño-astronauta {
      
            @include medidas(300px,300px );
-            margin-top: 140px;
+            margin-top: 100px;
         }       
             .tamaño-algo-demi {
                 @include medidas(250px,280px );
@@ -90,7 +91,7 @@
             color: gold;
         }
         .tamaño-tarjeta {
-            height: 150px;
+            height: 135px;
             margin-top: 20px;
            .contact-info__wrapper {
                 overflow: hidden;
@@ -128,9 +129,13 @@
                 box-shadow: 0 1rem 3rem rgba(132, 138, 163, 0.212) !important;
             }
             }
+           
+
+           
+
+            
                 
         
 
     }
     
-}
