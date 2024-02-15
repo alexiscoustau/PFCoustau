@@ -1,0 +1,92 @@
+.largo{
+    .sombra-letras {
+        text-shadow: 0px 4px 3px rgba(0,0,0,1);
+    }
+    .titulo{
+    
+        color: #fffb07;
+    }
+    .titulo2 {
+        font-family: map-get($map: $fuentes-titulo , $key: titulo2 );
+        color: white;
+    }
+    .titulo3{
+        color: white;
+        font-family: map-get($map: $fuentes-titulo, $key: titulo3 );
+    background-color: rgba(128, 128, 128, 0.562);}
+    .texto-inicio {
+        @extend .sombra-letras;
+        margin-top: 140px;
+        
+    }
+    .texto-demi {
+        @extend .sombra-letras;
+        margin-top: 80px;
+        
+    }
+    .texto-trabajo {
+        @extend .sombra-letras;
+        margin-top: 30px;
+        
+    }
+
+    .imagen-astronauta  {
+        @include medidas(20px,20px );
+    }
+    .tamaño-astronauta {
+ 
+       @include medidas(300px,300px );
+        margin-top: 100px;
+    }       
+        .tamaño-algo-demi {
+            @include medidas(250px,280px );
+             margin-top: 120px;
+        
+        }
+        .tamaño-logos {
+            @include medidas(90px,90px );
+        }
+    
+    .color-letra-contacto {
+        color: gold;
+    }
+    .tamaño-tarjeta {
+        height: 135px;
+        margin-top: 20px;
+       .contact-info__wrapper {
+            overflow: hidden;
+            border-radius: .625rem .625rem 0 0
+        }
+        
+        @media (min-width: 1024px) {
+            .contact-info__wrapper {
+                border-radius: 0 .625rem .625rem 0;
+                padding: 5rem !important
+            }
+        }
+        
+        
+        
+        .list-style--none {
+            list-style: none;
+        }
+        .contact__wrapper {
+            background-color: #fff;
+            border-radius: 0 0 .625rem .625rem
+        }
+        
+        @media (min-width: 1024px) {
+            .contact__wrapper {
+                border-radius: .625rem 0 .625rem .625rem
+            }
+        }
+        @media (min-width: 1024px) {
+            .contact-form__wrapper {
+                padding: 5rem !important
+            }
+        }
+        .shadow-lg, .shadow-lg--on-hover:hover {
+            box-shadow: 0 1rem 3rem rgba(132, 138, 163, 0.212) !important;
+        }
+    }
+}

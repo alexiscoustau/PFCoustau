@@ -1,0 +1,16 @@
+.nav-sombra {
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.541);
+    .navegador {
+       @include medidas(30px,30px )
+    }
+    .tamaño-letra-menu {
+        font-size: 16px;
+        .color-letra-menu:hover {
+
+            font-size: 18px;
+            transition: 0.5s;
+            
+        }
+        
+    }
+}

@@ -28,11 +28,9 @@
   transition: 0.5s;
 }
 
-.sombra-letras, .largo .texto-trabajo, .largo .texto-demi, .largo .texto-inicio {
+.largo .sombra-letras, .largo .texto-trabajo, .largo .texto-demi, .largo .texto-inicio {
   text-shadow: 0px 4px 3px rgb(0, 0, 0);
 }
-
- 
 .largo .titulo {
   color: #fffb07;
 }
@@ -43,8 +41,6 @@
 .largo .titulo3 {
   color: white;
   font-family: "Lemon", serif;
-  font-family: "Lilita One", sans-serif;
-  font-family: "Salsa", cursive;
   background-color: rgba(128, 128, 128, 0.562);
 }
 .largo .texto-inicio {
